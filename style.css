@@ -1,4 +1,13 @@
 /* ===== Global Styles ===== */
+
+/* ===== Home Section Fix ===== */
+.home {
+  min-height: 90vh;   /* takes almost full screen */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 * {
   margin: 0;
   padding: 0;
